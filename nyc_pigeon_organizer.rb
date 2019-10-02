@@ -5,7 +5,11 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value_names| 
       value_names.each do |color, names|
         names.each do |name|
-    binding.pry
+          if !names[name]
+            names[name] = { }
+          end
+          binding.pry
+      end
     end
   end
   names
