@@ -1,9 +1,8 @@
 require "pry"
 def nyc_pigeon_organizer(data)
   names = { }
-  n = 0 
   
-  data.each do |n| 
+  data.each do |attribute, | 
     puts "#{data[n]}"
     binding.pry
     n += 1
