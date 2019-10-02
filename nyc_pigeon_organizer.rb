@@ -8,6 +8,9 @@ def nyc_pigeon_organizer(data)
           if !pigeons_names[name]
             pigeons_names[name] = { }
           end
+          if !pigeons_names[name]
+            pigeons_names[name] = { }
+          end
           binding.pry
       end
     end
