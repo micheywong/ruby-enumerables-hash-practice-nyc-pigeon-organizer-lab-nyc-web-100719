@@ -1,4 +1,3 @@
-require "pry"
 def nyc_pigeon_organizer(data)
   names = { }
   
@@ -8,5 +7,5 @@ def nyc_pigeon_organizer(data)
      i += 1 
     end 
   return names
-  binding.pry
+  
 end
