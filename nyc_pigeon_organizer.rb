@@ -1,3 +1,10 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  names = { }
+  
+  i = 0 
+   while i < data.length do 
+    puts "#{data[0]}"
+     i += 1 
+    end 
+  return names
 end
