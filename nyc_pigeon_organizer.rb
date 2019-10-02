@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   names = { }
   
   data.each do |attribute, specifics| 
-    puts "#{data[attribute]}"
+    puts "#{data[specifics]}"
     binding.pry
   end
   names
